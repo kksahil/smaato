@@ -15,8 +15,8 @@ public class LogJob  implements Job {
 	  
 	  final Logger logger = LogManager.getLogger(this.getClass());
 	  
-	  System.out.println("Saving Log Of last Minute : " + CounterRest.counter);
-	  logger.info(CounterRest.counter.toString());
+	  System.out.println("Saving Log Of last Minute : " + CounterRest.counter + " Total Unique ID counts : " + CounterRest.counter.keySet().size());
+	  logger.info(CounterRest.counter.toString() + " Unique ID counts : " + CounterRest.counter.keySet().size());
 	  CounterRest.counter.clear();
   }
 }

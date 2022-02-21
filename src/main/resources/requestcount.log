@@ -1,16 +1,16 @@
-"2022-02-21 04:25:13 - Starting SmaatoApplication using Java 17.0.1 on kunal-laptop with PID 19060 (/home/kunal/eclipse-workspace/smaato/target/classes started by kunal in /home/kunal/eclipse-workspace/smaato)
-""2022-02-21 04:25:13 - No active profile set, falling back to default profiles: default
-""2022-02-21 04:25:14 - Tomcat initialized with port(s): 8080 (http)
-""2022-02-21 04:25:14 - Initializing ProtocolHandler ["http-nio-8080"]
-""2022-02-21 04:25:14 - Starting service [Tomcat]
-""2022-02-21 04:25:14 - Starting Servlet engine: [Apache Tomcat/9.0.56]
-""2022-02-21 04:25:14 - Initializing Spring embedded WebApplicationContext
-""2022-02-21 04:25:14 - Root WebApplicationContext: initialization completed in 512 ms
-""2022-02-21 04:25:14 - Using default implementation for ThreadExecutor
-""2022-02-21 04:25:14 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-""2022-02-21 04:25:14 - Quartz Scheduler v.2.3.2 created.
-""2022-02-21 04:25:14 - RAMJobStore initialized.
-""2022-02-21 04:25:14 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+"2022-02-22 00:41:40 - Starting SmaatoApplication using Java 17.0.1 on kunal-laptop with PID 11149 (/home/kunal/eclipse-workspace/smaato/target/classes started by kunal in /home/kunal/eclipse-workspace/smaato)
+""2022-02-22 00:41:40 - No active profile set, falling back to default profiles: default
+""2022-02-22 00:41:41 - Tomcat initialized with port(s): 8080 (http)
+""2022-02-22 00:41:41 - Initializing ProtocolHandler ["http-nio-8080"]
+""2022-02-22 00:41:41 - Starting service [Tomcat]
+""2022-02-22 00:41:41 - Starting Servlet engine: [Apache Tomcat/9.0.56]
+""2022-02-22 00:41:41 - Initializing Spring embedded WebApplicationContext
+""2022-02-22 00:41:41 - Root WebApplicationContext: initialization completed in 505 ms
+""2022-02-22 00:41:41 - Using default implementation for ThreadExecutor
+""2022-02-22 00:41:41 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+""2022-02-22 00:41:41 - Quartz Scheduler v.2.3.2 created.
+""2022-02-22 00:41:41 - RAMJobStore initialized.
+""2022-02-22 00:41:41 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -18,119 +18,22 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-""2022-02-21 04:25:14 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-""2022-02-21 04:25:14 - Quartz scheduler version: 2.3.2
-""2022-02-21 04:25:14 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3fb9a67f
-""2022-02-21 04:25:14 - Starting ProtocolHandler ["http-nio-8080"]
-""2022-02-21 04:25:14 - Tomcat started on port(s): 8080 (http) with context path ''
-""2022-02-21 04:25:14 - Starting Quartz Scheduler now
-""2022-02-21 04:25:14 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
-""2022-02-21 04:25:14 - Started SmaatoApplication in 1.038 seconds (JVM running for 1.335)
-""2022-02-21 04:25:20 - {}
-""2022-02-21 04:25:35 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-02-21 04:25:35 - Initializing Servlet 'dispatcherServlet'
-""2022-02-21 04:25:35 - Completed initialization in 1 ms
-""2022-02-21 04:25:40 - {1=1}
-""2022-02-21 04:26:00 - {}
-""2022-02-21 04:26:20 - {}
-""2022-02-21 04:26:21 - Application shutdown requested.
-""2022-02-21 04:26:21 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-""2022-02-21 04:26:21 - Shutting down Quartz Scheduler
-""2022-02-21 04:26:21 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-""2022-02-21 04:26:21 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-""2022-02-21 04:26:21 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-""2022-02-21 04:37:51 - Starting SmaatoApplication using Java 17.0.1 on kunal-laptop with PID 19717 (/home/kunal/eclipse-workspace/smaato/target/classes started by kunal in /home/kunal/eclipse-workspace/smaato)
-""2022-02-21 04:37:51 - No active profile set, falling back to default profiles: default
-""2022-02-21 04:37:51 - Tomcat initialized with port(s): 8080 (http)
-""2022-02-21 04:37:51 - Initializing ProtocolHandler ["http-nio-8080"]
-""2022-02-21 04:37:51 - Starting service [Tomcat]
-""2022-02-21 04:37:51 - Starting Servlet engine: [Apache Tomcat/9.0.56]
-""2022-02-21 04:37:51 - Initializing Spring embedded WebApplicationContext
-""2022-02-21 04:37:51 - Root WebApplicationContext: initialization completed in 496 ms
-""2022-02-21 04:37:51 - Using default implementation for ThreadExecutor
-""2022-02-21 04:37:51 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-""2022-02-21 04:37:51 - Quartz Scheduler v.2.3.2 created.
-""2022-02-21 04:37:51 - RAMJobStore initialized.
-""2022-02-21 04:37:51 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-""2022-02-21 04:37:51 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-""2022-02-21 04:37:51 - Quartz scheduler version: 2.3.2
-""2022-02-21 04:37:51 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1d50a7ca
-""2022-02-21 04:37:52 - Starting ProtocolHandler ["http-nio-8080"]
-""2022-02-21 04:37:52 - Tomcat started on port(s): 8080 (http) with context path ''
-""2022-02-21 04:37:52 - Starting Quartz Scheduler now
-""2022-02-21 04:37:52 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
-""2022-02-21 04:37:52 - Started SmaatoApplication in 1.019 seconds (JVM running for 1.318)
-""2022-02-21 04:37:56 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-02-21 04:37:56 - Initializing Servlet 'dispatcherServlet'
-""2022-02-21 04:37:56 - Completed initialization in 1 ms
-""2022-02-21 04:38:00 - {1=4}
-""2022-02-21 04:38:20 - {4=4}
-""2022-02-21 04:38:40 - {}
-""2022-02-21 04:38:48 - 200 OK
-""2022-02-21 04:39:00 - {}
-""2022-02-21 04:39:16 - 200 OK
-""2022-02-21 04:39:20 - {4=4}
-""2022-02-21 04:39:40 - {}
-""2022-02-21 04:40:00 - {}
-""2022-02-21 04:40:20 - {}
-""2022-02-21 04:40:40 - {}
-""2022-02-21 04:40:54 - 200 OK
-""2022-02-21 04:41:00 - {}
-""2022-02-21 04:41:01 - Application shutdown requested.
-""2022-02-21 04:41:01 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-""2022-02-21 04:41:01 - Shutting down Quartz Scheduler
-""2022-02-21 04:41:01 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-""2022-02-21 04:41:01 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-""2022-02-21 04:41:01 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-""2022-02-21 04:41:06 - Starting SmaatoApplication using Java 17.0.1 on kunal-laptop with PID 19920 (/home/kunal/eclipse-workspace/smaato/target/classes started by kunal in /home/kunal/eclipse-workspace/smaato)
-""2022-02-21 04:41:06 - No active profile set, falling back to default profiles: default
-""2022-02-21 04:41:06 - Tomcat initialized with port(s): 8080 (http)
-""2022-02-21 04:41:06 - Initializing ProtocolHandler ["http-nio-8080"]
-""2022-02-21 04:41:06 - Starting service [Tomcat]
-""2022-02-21 04:41:06 - Starting Servlet engine: [Apache Tomcat/9.0.56]
-""2022-02-21 04:41:06 - Initializing Spring embedded WebApplicationContext
-""2022-02-21 04:41:06 - Root WebApplicationContext: initialization completed in 488 ms
-""2022-02-21 04:41:06 - Using default implementation for ThreadExecutor
-""2022-02-21 04:41:06 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-""2022-02-21 04:41:06 - Quartz Scheduler v.2.3.2 created.
-""2022-02-21 04:41:06 - RAMJobStore initialized.
-""2022-02-21 04:41:06 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-""2022-02-21 04:41:06 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-""2022-02-21 04:41:06 - Quartz scheduler version: 2.3.2
-""2022-02-21 04:41:06 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2b38b1f
-""2022-02-21 04:41:07 - Starting ProtocolHandler ["http-nio-8080"]
-""2022-02-21 04:41:07 - Tomcat started on port(s): 8080 (http) with context path ''
-""2022-02-21 04:41:07 - Starting Quartz Scheduler now
-""2022-02-21 04:41:07 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
-""2022-02-21 04:41:07 - Started SmaatoApplication in 0.994 seconds (JVM running for 1.293)
-""2022-02-21 04:41:10 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2022-02-21 04:41:10 - Initializing Servlet 'dispatcherServlet'
-""2022-02-21 04:41:10 - Completed initialization in 1 ms
-""2022-02-21 04:41:10 - 200 OK
-""2022-02-21 04:41:20 - {}
-""2022-02-21 04:41:39 - 200 OK
-""2022-02-21 04:41:40 - {4=4, 5=2}
-""2022-02-21 04:42:00 - {}
-""2022-02-21 04:42:20 - {}
-""2022-02-21 04:42:40 - {}
-""2022-02-21 04:42:48 - Application shutdown requested.
-""2022-02-21 04:42:48 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-""2022-02-21 04:42:48 - Shutting down Quartz Scheduler
-""2022-02-21 04:42:48 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-""2022-02-21 04:42:48 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-""2022-02-21 04:42:48 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+""2022-02-22 00:41:41 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+""2022-02-22 00:41:41 - Quartz scheduler version: 2.3.2
+""2022-02-22 00:41:41 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3fc7c734
+""2022-02-22 00:41:41 - Starting ProtocolHandler ["http-nio-8080"]
+""2022-02-22 00:41:41 - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-02-22 00:41:41 - Starting Quartz Scheduler now
+""2022-02-22 00:41:41 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+""2022-02-22 00:41:41 - Started SmaatoApplication in 1.046 seconds (JVM running for 1.444)
+""2022-02-22 00:42:00 - {} Unique ID counts : 0
+""2022-02-22 00:42:20 - {} Unique ID counts : 0
+""2022-02-22 00:42:40 - {} Unique ID counts : 0
+""2022-02-22 00:43:00 - {} Unique ID counts : 0
+""2022-02-22 00:43:12 - Application shutdown requested.
+""2022-02-22 00:43:12 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+""2022-02-22 00:43:12 - Shutting down Quartz Scheduler
+""2022-02-22 00:43:12 - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+""2022-02-22 00:43:12 - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+""2022-02-22 00:43:12 - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
 "
