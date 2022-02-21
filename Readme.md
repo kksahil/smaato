@@ -37,7 +37,8 @@ logback-spring.xml : configuration related to logging file.
 
 Two endpoints are :
 
-http://localhost:8080/api/smaato/accept?id=1&str=AnyString
+http://localhost:8080/api/smaato/accept?id=1&str=AnyStringOrWithoutString
+
 http://localhost:8080/api/smaato/getcurrentcount
 
 
