@@ -35,6 +35,6 @@ public class CounterRest {
 	@GetMapping("/api/smaato/getcurrentcount")
 	public String getStat() {
 		logger.info(HttpStatus.OK);
-		return "Current Count ( id=number of requests ) " + counter.toString();
+		return "Current Count ( id=number of requests ) " + counter.toString() + " Unique ID counts : " + CounterRest.counter.keySet().size();
 	}
 }
